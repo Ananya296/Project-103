@@ -1,0 +1,53 @@
+body
+{
+    background-image:linear-gradient( greenyellow, yellow);
+    text-align: center;
+}
+
+.b
+{
+    width: 80%;
+    height: 35px;
+    margin-top: 20px;
+    border-style: none;
+    background-color: lightyellow;
+    letter-spacing: 2px;
+    font-size: 17px;
+}
+
+#h
+{
+    font-family: 'Glory', sans-serif;
+    font-weight: 600px;
+}
+
+#camera
+{
+    border-style: dashed;
+    height: 250px;
+    width: 300px;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+#text
+{
+    font-size: 18px;
+    margin-top: 60px;
+    margin-right: 70%;
+
+}
+
+#classify, #capture
+{
+    background-color: lawngreen;
+    height: 45px;
+    width: 95px;
+    font-size: 19px;
+}
+
+#capture
+{
+    margin-right: 55%;
+    margin-top: 25px;
+}

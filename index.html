@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Face recognition</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+         
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    
+       <link rel="stylesheet" href="style.css">
+      
+      </head>
+      <body>
+          <h1 id="h">FACE RECOGNITION APP</h1>
+
+        <h3> The model is trained to recognise the following persons.</h3>
+
+        <button class="btn b"> Mom </button>
+        <br>
+        <button class="btn b"> Dad </button>
+        <br>
+        <button class="btn b"> Sister </button>
+        <br>
+        <button class="btn b"> Me </button>
+        <br>
+        <label id="text"> Webcam View -</label>
+        <div id="camera"> </div>
+        
+        <div id="captured_image"> </div>
+
+        <button onclick="captureImg()" class="btn" id="capture"> Capture</button>
+        <button onclick="identify()" class="btn" id="classify"> Identify</button>
+
+        <script src="main.js"></script>
+          </body>
+</html>
